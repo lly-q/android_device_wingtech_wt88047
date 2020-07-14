@@ -16,7 +16,7 @@
 $(call inherit-product, device/wingtech/wt88047/full_wt88047.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/havoc/config/common_mini_phone.mk)
+$(call inherit-product, vendor/havoc/config/common.mk)
 
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8916
